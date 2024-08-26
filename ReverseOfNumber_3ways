@@ -1,0 +1,39 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class HelloWorld {
+    public static void main(String[] args) {
+        // //first ways-logic1
+        // Scanner sc=new Scanner(System.in);
+        // System.out.println("Enter a  number=");
+        // int num=sc.nextInt();
+        // int rev=0;
+        
+        // while(num!=0)
+        // {
+        //     rev=rev*10+num%10;
+        //     num=num/10;
+        // }
+        // System.out.println("Reverse of number="+rev);
+        
+        //logic2-using string buffer class
+        // Scanner sc=new Scanner(System.in);
+        // System.out.println("Enter a  number=");
+        // int num=sc.nextInt();
+        // StringBuffer sb=new StringBuffer(String.valueOf(num));
+        // StringBuffer rev=sb.reverse();
+        // System.out.println("Reverse of number="+rev);
+        
+        
+        //logic3-using string buffer class
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a  number=");
+        int num=sc.nextInt();
+        StringBuilder sb1=new StringBuilder();
+        sb1.append(num);
+        StringBuilder rev=sb1.reverse();
+        System.out.println("Reverse of number="+rev);
+        
+        
+  }
+}
