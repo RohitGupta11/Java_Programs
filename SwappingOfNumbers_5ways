@@ -1,0 +1,52 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        // //first ways
+        // int a=3,b=4;
+        // System.out.println("before swapping: a="+a+",b="+b);
+        // int t=a;
+        // a=b;
+        // b=t;
+        // System.out.println("after swapping: a="+a+",b="+b);
+        
+        //2ndways 
+        // int a=3,b=4;
+        // System.out.println("before swapping: a="+a+",b="+b);
+        // a=a+b;
+        // b=a-b;
+        // a=a-b;
+        // System.out.println("after swapping: a="+a+",b="+b);
+        
+        //3rd ways 
+        // int a=3,b=4;
+        // System.out.println("before swapping: a="+a+",b="+b);
+        // a=a*b;
+        // b=a/b;
+        // a=a/b;
+        // System.out.println("after swapping: a="+a+",b="+b);
+        
+        //4th ways
+        // int a=3,b=4;
+        // System.out.println("before swapping: a="+a+",b="+b);
+        // a=a^b;
+        // b=a^b;
+        // a=a^b;
+        // System.out.println("after swapping: a="+a+",b="+b);
+        
+        //5th ways using single statement
+        int a=3,b=4;
+         System.out.println("before swapping: a="+a+",b="+b);
+         b=a+b-(a=b);
+         System.out.println("after swapping: a="+a+",b="+b);
+    
+        
+        
+        
+        
+        
+        
+        
+    }
+}
