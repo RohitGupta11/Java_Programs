@@ -1,0 +1,31 @@
+package Day1;
+
+import java.util.Random;
+
+public class RandomNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//Approach 1- using random class		
+	 Random randnum=new Random();
+	 int num=randnum.nextInt(1000);
+	 System.out.println(num);
+	 
+	 Double numd=randnum.nextDouble();
+	 System.out.println(numd);
+	 
+//approach 2- using math class
+
+	
+	
+//approach 3-using apache common lang
+		
+//	String randnum=RandomStringUtils.randomNumeric(10);
+//	System.out.println(randnum); //print string with 10 digit
+//	
+//	String randnumstr=RandomStringUtils.randomAlphabetic(5);
+//	System.out.println(randnumstr); //print string with 5 character
+//	
+
+}
